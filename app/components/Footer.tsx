@@ -13,7 +13,7 @@ export default function Footer() {
               UltimateVid
             </h3>
             <p className="text-gray-400 text-sm">
-              The ultimate video downloader for all your needs. Download from YouTube, Instagram, TikTok, Twitter, and Facebook. Fast, secure, and always free.
+              The ultimate universal video downloader. Download from Twitch, Bilibili, Vimeo, Reddit, YouTube, and 100+ other sites. Fast, secure, and always free.
             </p>
             <p className="text-gray-500 text-xs mt-4">
               &copy; {new Date().getFullYear()} UltimateVid. All rights reserved.
@@ -37,14 +37,8 @@ export default function Footer() {
           {/* Support */}
           <div className="flex flex-col space-y-3">
             <h4 className="text-white font-semibold mb-2">Support</h4>
-            <Link href="#" className="text-gray-400 hover:text-white transition-colors text-sm" title="Read Terms of Service">
-              Terms of Service
-            </Link>
-            <Link href="#" className="text-gray-400 hover:text-white transition-colors text-sm" title="Read Privacy Policy">
-              Privacy Policy
-            </Link>
-            <Link href="#" className="text-gray-400 hover:text-white transition-colors text-sm" title="Contact Support">
-              Contact Us
+            <Link href="/#request-section" className="text-gray-400 hover:text-white transition-colors text-sm" title="Send us a request">
+              Make a Request
             </Link>
           </div>
           

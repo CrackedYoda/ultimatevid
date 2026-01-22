@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "UltimateVid - Download Videos from YouTube, Instagram, TikTok & More",
-  description: "Download high-quality videos from YouTube, Instagram, TikTok, Twitter, and Facebook. Fast, free, and easy video downloading tool.",
-  keywords: "video downloader, YouTube downloader, Instagram downloader, TikTok downloader, free video download, video converter, online video downloader",
+  title: "UltimateVid - All-in-One Video Downloader (Twitch, Bilibili, specific & More)",
+  description: "Download high-quality videos from YouTube, Twitch, Bilibili, Vimeo, Reddit, Dailymotion, Instagram, TikTok, Facebook, and 100+ other sites. Fast, free, and secure.",
+  keywords: "video downloader, Twitch downloader, Bilibili downloader, Vimeo downloader, Reddit video downloader, Dailymotion downloader, YouTube downloader, Instagram downloader, TikTok downloader, 4K video downloader",
   authors: [{ name: "UltimateVid Team" }],
   robots: "index, follow",
   openGraph: {
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://ultimatevid.com",
     siteName: "UltimateVid",
-    title: "UltimateVid - Download Videos from YouTube, Instagram, TikTok & More",
-    description: "Download high-quality videos from YouTube, Instagram, TikTok, Twitter, and Facebook. Fast, free, and easy video downloading tool.",
+    title: "UltimateVid - Universal Video Downloader",
+    description: "Download videos from Twitch, Bilibili, Vimeo, Reddit, Dailymotion, and many more. No registration required.",
     images: [
       {
         url: "/logo.png",
@@ -36,12 +36,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "UltimateVid - Download Videos from YouTube, Instagram, TikTok & More",
-    description: "Download high-quality videos from your favorite platforms instantly. Fast, free, and easy.",
+    title: "UltimateVid - Universal Video Downloader",
+    description: "Download videos from Twitch, Bilibili, Vimeo, Reddit, Dailymotion, and 100+ more sites instantly.",
     images: ["/logo.png"],
   },
   viewport: "width=device-width, initial-scale=1, maximum-scale=5",
-  charset: "utf-8",
+
   alternates: {
     canonical: "https://ultimatevid.com",
   },
@@ -59,7 +59,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "UltimateVid",
-    description: "Download high-quality videos from YouTube, Instagram, TikTok, Twitter, and Facebook.",
+    description: "Download high-quality videos from Twitch, Bilibili, Vimeo, Reddit, Dailymotion, YouTube, and more.",
     url: "https://ultimatevid.com",
     applicationCategory: "UtilitiesApplication",
     operatingSystem: "Web",

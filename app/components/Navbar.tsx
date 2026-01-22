@@ -37,6 +37,9 @@ export default function Navbar() {
               <Link href="/telegram-bot" className="text-gray-300 hover:text-white hover:bg-white/10 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200">
                 TelegramBot
               </Link>
+              <Link href="/#request-section" className="text-gray-300 hover:text-white hover:bg-white/10 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200">
+                Make a Request
+              </Link>
             </div>
           </div>
 
@@ -73,6 +76,7 @@ export default function Navbar() {
            <Link href="/" className="text-gray-300 hover:text-white hover:bg-white/10 block px-3 py-3 rounded-md text-base font-medium">Home</Link>
            <Link href="/how-to-use" className="text-gray-300 hover:text-white hover:bg-white/10 block px-3 py-3 rounded-md text-base font-medium">How to use</Link>
            <Link href="/telegram-bot" className="text-gray-300 hover:text-white hover:bg-white/10 block px-3 py-3 rounded-md text-base font-medium">TelegramBot</Link>
+           <Link href="/#request-section" className="text-gray-300 hover:text-white hover:bg-white/10 block px-3 py-3 rounded-md text-base font-medium" onClick={() => setIsOpen(false)}>Make a Request</Link>
         </div>
       </div>
     </nav>
