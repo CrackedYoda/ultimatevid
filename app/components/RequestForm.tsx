@@ -31,7 +31,7 @@ export default function RequestForm() {
       } else {
         setStatus("error");
       }
-    } catch (error) {
+    } catch (error) { 
       setStatus("error");
     }
   };

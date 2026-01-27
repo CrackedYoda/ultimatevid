@@ -71,11 +71,16 @@ export default function Home() {
            </p>
            <div className="flex flex-wrap justify-center gap-2 text-sm text-gray-500 mt-4">
              <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-purple-400">Twitch</span>
-             <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-pink-400">Bilibili</span>
-             <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-blue-400">Vimeo</span>
+             <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-pink-400">Facebook</span>
+             <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-blue-400">Tiktok</span>
+             <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-blue-400">Twitter</span>  
+             <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-red-400">Instagram</span>
+             <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-red-400">Youtube</span>
              <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-orange-400">Reddit</span>
              <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-cyan-400">Dailymotion</span>
-             <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10">+ many more</span>
+             <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-cyan-400">Bilibili</span>
+             <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-cyan-400">Vimeo</span>
+             <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10">+ many more without watermark</span>
            </div>
         </div>
 
