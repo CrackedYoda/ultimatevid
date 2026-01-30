@@ -18,6 +18,12 @@ export const metadata: Metadata = {
   keywords: "video downloader, Twitch downloader, Bilibili downloader, Vimeo downloader, Reddit video downloader, Dailymotion downloader, YouTube downloader, Instagram downloader, TikTok downloader, 4K video downloader",
   authors: [{ name: "UltimateVid Team" }],
   robots: "index, follow",
+  metadataBase: new URL("https://ultimatevid.com"),
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -41,6 +47,7 @@ export const metadata: Metadata = {
     images: ["/logo.png"],
   },
   viewport: "width=device-width, initial-scale=1, maximum-scale=5",
+  themeColor: "#000000",
 
   alternates: {
     canonical: "https://ultimatevid.com",

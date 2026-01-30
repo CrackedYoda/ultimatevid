@@ -21,6 +21,25 @@ export const checkUrl = async (url: string) => {
 
   const data = await res.json();
   console.log(data);
-  
+
   return data;
-}
+};
+
+export const getUrl = async (url: string) => {
+  if (!url) return;
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_API_URL}/download?url=${url}`,
+    );
+    if (!res.ok) {
+      console.log("something went wrong");
+    }
+   
+    
+    const data =  await res.json();
+    console.log(data.fileName);
+    return data.fileName;
+  } catch (err) {
+    console.log(err);
+  }
+};
